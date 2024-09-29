@@ -1,0 +1,29 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.println("**");
+        System.out.println("* FACULDADE ALFREDO NASSER *");
+        for (String s : Arrays.asList("*", " Aluno: Miqueias Henrique Da Silva Carvalho ", " Professor: Brenno Pimenta da Costa *")) {
+            System.out.println(s);
+        }
+        System.out.println("**");
+        System.out.println("* Quiz de 15 perguntas sobre Freakazoid! *");
+        System.out.println("**");
+
+        System.out.println("Opa, bem-vindo ao Quiz sobre Freakazoid!, espero que se divirta!");
+        
+        Questao q1 = new Questao();
+        q1.pergunta = "Pergunta 1: Qual é o verdadeiro nome do Freakazoid?";
+        q1.opcaoA = "a) Dexter Douglas";
+        q1.opcaoB = "b) Bruce Wayne";
+        q1.opcaoC = "c) Clark Kent";
+        q1.opcaoD = "d) Peter Parker";
+        q1.opcaoE = "e) Wally West";
+        q1.correta = "";
+
+
+    }
+}
