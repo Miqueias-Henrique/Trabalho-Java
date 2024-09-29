@@ -40,14 +40,14 @@ public class Main {
         resposta = q2.leiaResposta();
         q2.isCorreta(resposta);
         //
-        Questao q3 = new Questao();
+        Qestao q3 = new Questao();
         q3.pergunta = "Pergunta 3: Qual é o principal vilão que enfrenta o Freakazoid?";
-        q3.opcaoA = "A) Chameleon";
-        q3.opcaoB = "B) Dr. Weird";
-        q3.opcaoC = "C) Anubis";
-        q3.opcaoD = "D) Lobe";
-        q3.opcaoE = "E) Brainiac";
-        q3.correta = "D";
+        q3.opcaoA = "A) O Cérebro";
+        q3.opcaoB = "B) Dr. Estranho";
+        q3.opcaoC = "C) O Incrível Shapiro";
+        q3.opcaoD = "D) O Camaleão";
+        q3.opcaoE = "E) O Louva-a-Deus";
+        q3.correta = "A";
 
         q3.escrevaQuestao();
         resposta = q3.leiaResposta();
@@ -57,9 +57,9 @@ public class Main {
         q4.pergunta = "Pergunta 4: Quem é o amigo e parceiro do Freakazoid?";
         q4.opcaoA = "A) Cosgrove";
         q4.opcaoB = "B) Dexter";
-        q4.opcaoC = "C) Lobe";
+        q4.opcaoC = "C) Joe Leal";
         q4.opcaoD = "D) Monk";
-        q4.opcaoE = "E) Morty";
+        q4.opcaoE = "E) Ciber-Chefe";
         q4.correta = "D";
 
         q4.escrevaQuestao();
