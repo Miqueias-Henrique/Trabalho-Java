@@ -1,0 +1,19 @@
+// e aqui que o algoritmo que fara o quiz rodar no terminal
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Questao q1 = new Questao();
+        q1.pergunta = "";
+        q1.opcaoA = "";
+        q1.opcaoB = "";
+        q1.opcaoC = "";
+        q1.opcaoD = "";
+        q1.opcaoE = "";
+        q1.correta = "";
+
+    }
+}
