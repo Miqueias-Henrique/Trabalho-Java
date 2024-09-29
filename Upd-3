@@ -35,3 +35,7 @@ public class Main {
         q2.opcaoD = "D) Quentin Tarantino";
         q2.opcaoE = "E) Francis Ford Coppola";
         q2.correta = "E";
+
+        q2.escrevaQuestao();
+        resposta = q2.leiaResposta();
+        q2.isCorreta(resposta);
