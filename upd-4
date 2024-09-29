@@ -29,12 +29,12 @@ public class Main {
         //
         Questao q2 = new Questao();
         q2.pergunta = "Pergunta 2: Qual é a origem do poder do Freakazoid?";
-        q2.opcaoA = "A) Martin Scorsese";
-        q2.opcaoB = "B) Steven Spielberg";
-        q2.opcaoC = "C) Stanley Kubrick";
-        q2.opcaoD = "D) Quentin Tarantino";
-        q2.opcaoE = "E) Francis Ford Coppola";
-        q2.correta = "E";
+        q2.opcaoA = "A) Um experimento científico";
+        q2.opcaoB = "B) Um dispositivo alienígena";
+        q2.opcaoC = "C) Um acidente de computador";
+        q2.opcaoD = "D) Um feitiço mágico";
+        q2.opcaoE = "E) Um legado familiar";
+        q2.correta = "C";
 
         q2.escrevaQuestao();
         resposta = q2.leiaResposta();
@@ -44,9 +44,9 @@ public class Main {
         q3.pergunta = "Pergunta 3: Qual é o principal vilão que enfrenta o Freakazoid?";
         q3.opcaoA = "A) Lobe";
         q3.opcaoB = "B) Dr. Weird";
-        q3.opcaoC = "C) The Anubis";
-        q3.opcaoD = "D) The Chameleon";
-        q3.opcaoE = "E) The Brainiac";
+        q3.opcaoC = "C) Anubis";
+        q3.opcaoD = "D) Chameleon";
+        q3.opcaoE = "E) Brainiac";
         q3.correta = "A";
 
         q3.escrevaQuestao();
@@ -54,18 +54,17 @@ public class Main {
         q3.isCorreta(resposta);
         //
         Questao q4 = new Questao();
-        q4.pergunta = "Pergunta 3: Quem é o amigo e parceiro do Freakazoid?";
-        q4.opcaoA = "A) Lobe";
-        q4.opcaoB = "B) Dr. Weird";
-        q4.opcaoC = "C) The Anubis";
-        q4.opcaoD = "D) The Chameleon";
-        q4.opcaoE = "E) The Brainiac";
-        q4.correta = "A";
+        q4.pergunta = "Pergunta 4: Quem é o amigo e parceiro do Freakazoid?";
+        q4.opcaoA = "A) Cosgrove";
+        q4.opcaoB = "B) Dexter";
+        q4.opcaoC = "C) Lobe";
+        q4.opcaoD = "D) Monk";
+        q4.opcaoE = "E) Morty";
+        q4.correta = "D";
 
         q4.escrevaQuestao();
         resposta = q4.leiaResposta();
         q4.isCorreta(resposta);
-
 
 
 
