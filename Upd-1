@@ -15,8 +15,6 @@ public class Main {
 
         System.out.println("Opa, bem-vindo ao Quiz sobre Freakazoid!, espero que se divirta!");
 
-
-
         Questao q1 = new Questao();
         q1.pergunta = "";
         q1.opcaoA = "";
@@ -25,6 +23,9 @@ public class Main {
         q1.opcaoD = "";
         q1.opcaoE = "";
         q1.correta = "";
+        q1.escrevaQuestao();
+        String resposta = q1.leiaResposta();
+        q1.isCorreta(resposta);
 
     }
 }
