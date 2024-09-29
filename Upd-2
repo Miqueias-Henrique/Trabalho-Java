@@ -22,8 +22,10 @@ public class Main {
         q1.opcaoC = "c) Clark Kent";
         q1.opcaoD = "d) Peter Parker";
         q1.opcaoE = "e) Wally West";
-        q1.correta = "";
-
+        q1.correta = "a";
+        q1.escrevaQuestao();
+        String resposta = q1.leiaResposta();
+        q1.isCorreta(resposta);
 
     }
 }
