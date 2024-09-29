@@ -27,14 +27,14 @@ public class Main {
         String resposta = q1.leiaResposta();
         q1.isCorreta(resposta);
         //
-        Questao q2 = new Questao();
-        q2.pergunta = "Pergunta w: Qual é a origem do poder do Freakazoid?";
-        q2.opcaoA = "A) Martin Scorsese";
-        q2.opcaoB = "B) Steven Spielberg";
-        q2.opcaoC = "C) Stanley Kubrick";
-        q2.opcaoD = "D) Quentin Tarantino";
-        q2.opcaoE = "E) Francis Ford Coppola";
-        q2.correta = "E";
+       Questao q2 = new Questao();
+        q2.pergunta = "Pergunta 2: Qual é a origem do poder do Freakazoid?";
+        q2.opcaoA = "A) Um experimento científico";
+        q2.opcaoB = "B) Um dispositivo alienígena";
+        q2.opcaoC = "C) Um acidente de computador";
+        q2.opcaoD = "D) Um feitiço mágico";
+        q2.opcaoE = "E) Um legado familiar";
+        q2.correta = "C";
 
         q2.escrevaQuestao();
         resposta = q2.leiaResposta();
