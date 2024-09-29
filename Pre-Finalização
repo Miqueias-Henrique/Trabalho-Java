@@ -13,7 +13,7 @@ public class Main {
         //Faculdade
         System.out.println("Unifan - Centro Universitário Alfredo Nasser.");
         //Nome do Aluno
-        for (String s : Arrays.asList("*", " Aluno: Miqueias Henrique Da Silva Carvalho ", " Professor: Brenno Pimenta da Costa *")) {
+        for (String s : Arrays.asList(" Aluno: Miqueias Henrique Da Silva Carvalho")) {
         //Nome_professor
         System.out.println("Professor: Brenno Pimenta.");
         System.out.println("-----------------------------------------");
